@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/policy-analysis-dashboard/static/js/main.06a7a42b.js",
+    "index.html": "/policy-analysis-dashboard/index.html",
+    "main.06a7a42b.js.map": "/policy-analysis-dashboard/static/js/main.06a7a42b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.06a7a42b.js"
+  ]
+}
