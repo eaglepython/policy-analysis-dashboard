@@ -1,0 +1,20 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark text-white;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type='file']::-webkit-file-upload-button {
+  @apply bg-gray-700 text-white px-3 py-1 rounded hover:bg-gray-600;
+}
+
+code {
+  @apply text-green-400 font-mono;
+}
