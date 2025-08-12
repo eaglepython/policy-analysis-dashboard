@@ -1,3 +1,6 @@
+<img width="6024" height="4152" alt="diagram(2)" src="https://github.com/user-attachments/assets/15e8914b-0cfe-4b9e-a171-13dfe6936f3d" />
+
+
 # 📊 Policy Analysis Dashboard
 
 An interactive web-based platform for exploring data-driven policy insights using AI governance metrics, healthcare savings analysis, and regulatory trade-off modeling.
