@@ -1,25 +1,41 @@
-<img width="6024" height="4152" alt="diagram(2)" src="https://github.com/user-attachments/assets/15e8914b-0cfe-4b9e-a171-13dfe6936f3d" />
-
+<div align="center">
 
 # Policy Analysis Dashboard
 
-A small web app for exploring three policy questions about AI with your own data.
+### Explore three AI-policy questions with your own data — market concentration, cost impact, and innovation-vs-safety trade-offs.
 
-**Status: prototype.** The charts load with example numbers so the app has something to show. The example numbers are illustrative and are not measurements. Upload a CSV to use real data.
+![Status](https://img.shields.io/badge/Status-Prototype-E67E22?style=flat-square)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white)
+![Plotly](https://img.shields.io/badge/Charts-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Styling-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-2E7D32?style=flat-square)
+
+<br/>
+
+<img src="https://github.com/user-attachments/assets/15e8914b-0cfe-4b9e-a171-13dfe6936f3d" alt="How the dashboard works" width="92%"/>
+
+</div>
+
+---
+
+> [!NOTE]
+> **Status: prototype.** The charts load with example numbers so the app has something to show on open. Those numbers are illustrative, not measurements — upload a CSV to analyze real data.
 
 ## What it does
 
-- **AI vendor market share.** Calculates the Herfindahl-Hirschman Index (HHI) from a list of vendors and market shares, and labels the market as low, moderate, or high concentration.
-- **Healthcare cost analysis.** Compares costs with and without an AI tool over time and reports the average difference.
-- **Policy impact modeling.** Plots a trade-off between innovation and safety scores for different policy options.
+| View | What it computes |
+|---|---|
+| **AI vendor market share** | Herfindahl–Hirschman Index (HHI) from a list of vendors and shares, labeling the market low / moderate / high concentration. |
+| **Healthcare cost analysis** | Cost with vs. without an AI tool over time, and the average difference. |
+| **Policy impact modeling** | An innovation-vs-safety trade-off plotted across policy options. |
 
-Each view accepts a CSV upload, and two of them let you download a short Python script that repeats the calculation.
+Each view accepts a CSV upload, and two of them generate a short Python script that reproduces the calculation.
 
 ## CSV format
 
-For the market share view, use two columns:
+For the market-share view, use two columns:
 
-```
+```csv
 Vendor,MarketShare
 Vendor A,40
 Vendor B,35
@@ -35,12 +51,12 @@ npm install
 npm start
 ```
 
-Built with React, Plotly, PapaParse, and Tailwind CSS.
+## Built with
+
+React · Plotly · PapaParse · Tailwind CSS
 
 ## Author
 
-Joseph Bidias
+**Joseph Bidias** — [github.com/eaglepython](https://github.com/eaglepython)
 
-## License
-
-MIT
+<sub>Released under the MIT License.</sub>
